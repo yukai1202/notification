@@ -1,0 +1,23 @@
+ 
+ 
+
+<div class="wrapper">
+ 
+
+  
+<ul class="list-group">
+  <li class="list-group-item noti-item" ng-repeat="obj in message">
+
+  	<button type="button" class="close" data-dismiss="modal" ng-click="remove(obj)">
+                            <span aria-hidden="true">×</span>
+                            <span class="sr-only">Close</span>
+                          </button>
+    <span class="badge tran-badge">
+    	<span class="label label-success">Read</span> 
+    </span>
+    {{obj.msg}}    
+    <br>
+    {{obj.datetime}}
+  </li>
+</ul>
+ </div>

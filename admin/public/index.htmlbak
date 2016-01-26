@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+    
+    
+    <div>test</div>
+   
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="lib/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="lib/angular.min.js"></script>
+    
+ 
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/angular-resource.min.js"></script>
+ 
+    <script src="app_client.js"></script>
+
+	
+	<script src="controller/homeController.js"></script>
+
+    <script src="lib/socket.io.js"></script>
+    <!-- Services -->
+    <!--<script src="src/app/services.js"></script>
+    <script src="src/dashboard/services.js"></script>
+    <script src="src/user/services.js"></script>-->
+
+    <!-- Filters -->
+    <!--<script src="src/app/filters.js"></script>-->
+
+    <!-- Controllers -->
+    <!--<script src="src/app/controllers.js"></script>
+    <script src="src/dashboard/controllers.js"></script>
+    <script src="src/user/controllers.js"></script>-->
+ 
+
+    <!--directives -->
+     
+
+</body>
+</html>

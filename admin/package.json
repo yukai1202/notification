@@ -1,0 +1,21 @@
+{
+  "name": "notification",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.4.9",
+    "angularjs": "0.0.1",
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "socket.io": "^1.4.4",
+    "websocket": "^1.0.22"
+  }
+}

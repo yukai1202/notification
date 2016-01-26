@@ -1,0 +1,16 @@
+.wrapper{
+	margin-top:60px;
+}
+
+.tran-badge{
+	background-color: transparent;
+}
+
+.noti-item button{
+	display: none;
+}
+
+
+.noti-item:hover > button{
+	display: block;
+}
