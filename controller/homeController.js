@@ -10,10 +10,10 @@ angular.module('notiApp').controller('homeCtrl', ['$scope', '$http', '$anchorScr
 
 
 		$scope.init = function(){
-			$http.get("http://localhost:8088/connect", JSON.stringify(obj)).then(function(response){
+			$http.get("/connect", JSON.stringify(obj)).then(function(response){
 	            if(response.status === 200 && response.statusText === "OK"){
 	                //alert(response.data);
-	                socket = io("http://localhost:8088");
+	                socket = io("https://noti-fishyk.c9users.io/");
 	                 
 	                socket.on('receiveNotification', $scope.receiveNotification);
 	                socket.on('connected', $scope.connected);

@@ -10,7 +10,7 @@ angular.module('notiApp').controller('homeCtrl', ['$scope', '$http',
 		 	if($scope.message === "")
 		 		return;
 		 	var obj ={"msg":$scope.message};
-		 	$http.post("http://localhost:8088/send", JSON.stringify(obj)).then(function(response){
+		 	$http.post("/send", JSON.stringify(obj)).then(function(response){
 	            if(response.status === 200 && response.statusText === "OK"){
 	                //alert(response.data);
 	                 $scope.message = "";
